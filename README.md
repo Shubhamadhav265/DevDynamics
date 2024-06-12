@@ -13,7 +13,7 @@ This project implements a website hit tracker using Node.js and Express.
     - [Get Website Visit Count for Customer](#get-website-visit-count-for-customer)
     - [Get Overall Website Hit Count](#get-overall-website-hit-count)
 6. [Driver Function](#driver-function)
-. [Hosting the Application](#hosting-the-application)
+7. [Hosting the Application](#hosting-the-application)
 
 
 ## Introduction
