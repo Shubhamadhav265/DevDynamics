@@ -74,7 +74,7 @@ websiteId: The ID of the website.
 
 Example Request URL:
 bash:
-http://localhost:3000/api/customer-visits?customerId=customer1&websiteId=website1
+http://13.233.111.96:3000/api/customer-visits?customerId=customer1&websiteId=website1
 
 Response:
 {
