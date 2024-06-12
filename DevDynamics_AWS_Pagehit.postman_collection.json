@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "0b3e366e-1664-43e4-8084-4008d5c44382",
+		"name": "DevDynamics_AWS_Pagehit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32462154"
+	},
+	"item": [
+		{
+			"name": "http://13.233.111.96:3000/api/visit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"customerId\": \"customer3\",\r\n  \"deviceId\": \"device3\",\r\n  \"websiteId\": \"website2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://13.233.111.96:3000/api/visit",
+					"protocol": "http",
+					"host": [
+						"13",
+						"233",
+						"111",
+						"96"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"visit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://13.233.111.96:3000/api/customer-visits?customerId=customer3&websiteId=website2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://13.233.111.96:3000/api/customer-visits?customerId=customer3&websiteId=website2",
+					"protocol": "http",
+					"host": [
+						"13",
+						"233",
+						"111",
+						"96"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"customer-visits"
+					],
+					"query": [
+						{
+							"key": "customerId",
+							"value": "customer3"
+						},
+						{
+							"key": "websiteId",
+							"value": "website2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://13.233.111.96:3000/api/total-visits?websiteId=website2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://13.233.111.96:3000/api/total-visits?websiteId=website2",
+					"protocol": "http",
+					"host": [
+						"13",
+						"233",
+						"111",
+						"96"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"total-visits"
+					],
+					"query": [
+						{
+							"key": "websiteId",
+							"value": "website2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
