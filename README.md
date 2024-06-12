@@ -18,12 +18,15 @@ This project implements a website hit tracker using Node.js and Express.
 
 ## Introduction
 
-This project provides a simple implementation of a website hit counter system using Node.js and Express. It allows you to track visits to a website by different customers using various devices. The main features include:
+This project provides a simple implementation of a website hit counter system using Node.js and Express. It allows you to track visits to a website by different customers using various devices. 
 
+The main features include:
 - Tracking visits to a website by different customers.  
 - Ensuring each customer visit is counted only once, regardless of the device used.
 - Retrieving the number of visits a specific customer has made to a specific website.
 - Retrieving the total number of visits to a specific website by all customers.
+
+API Ruests(Postman) Public Link : https://documenter.getpostman.com/view/32462154/2sA3XMk3vr
 
 ## Prerequisites
 
