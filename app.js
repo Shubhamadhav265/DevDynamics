@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-let visits = {};
+let visits = {}; //Has to be set for unique Customer Visit count...
 
 // Track a visit to a website by a specific customer using a specific device
 app.post('/api/visit', (req, res) => {
